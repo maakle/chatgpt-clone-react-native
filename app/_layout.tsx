@@ -77,11 +77,9 @@ const InitialLayout = () => {
 const RootLayoutNav = () => {
   return (
     <ClerkProvider>
-      <NavigationContainer>
-        <GestureHandlerRootView style={{ flex: 1 }}>
-          <InitialLayout />
-        </GestureHandlerRootView>
-      </NavigationContainer>
+      <GestureHandlerRootView style={{ flex: 1 }}>
+        <InitialLayout />
+      </GestureHandlerRootView>
     </ClerkProvider>
   );
 };
