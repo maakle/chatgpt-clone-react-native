@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Chatgpt",
-    "slug": "chatgpt",
+    "name": "FinanceGPT",
+    "slug": "financegpt",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "chatgpt",
+    "scheme": "financegpt",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -15,14 +15,14 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.supersimon.chatgpt"
+      "bundleIdentifier": "com.maakle.financegpt"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.supersimon.chatgpt"
+      "package": "com.maakle.financegpt"
     },
     "web": {
       "bundler": "metro",
@@ -43,7 +43,7 @@
             "kotlinVersion": "1.6.20"
           },
           "ios": {
-            "deploymentTarget": "15.0"
+            "deploymentTarget": "16.0"
           }
         }
       ],
